@@ -16,8 +16,8 @@ pipeline {
      }
      stage ('Java Build') {
        steps {
-         //sh 'mvn clean install -DskipTests'
-         sh 'mvn clean package -U'
+         sh 'mvn clean install -DskipTests'
+         //sh 'mvn clean package -U'
        }
      }
      stage('Sonar') {
@@ -50,13 +50,13 @@ pipeline {
            } 
        
       }
-    stage('Run Smoke Tests') {
-      steps {
-        node('master') {
-              build job: 'smoketest'
-            }
-      }
-    }
+    //stage('Run Smoke Tests') {
+      //steps {
+        //node('master') {
+          //    build job: 'smoketest'
+            //}
+      //}
+    //}
 
   }
 }
