@@ -22,10 +22,12 @@ pipeline {
      }
      stage('Sonar') {
             steps {
-               sh "whoami"
+               //sh "whoami"
                //sh "mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.3.0.603:sonar -Dsonar.host.url=http://sonar-devel.local"
-            }
-        }  
+            withSonarQubeEnv('sonar_demo') {
+      sh 'mvn clean package sonar:sonar -DskipTests=true'
+        } 
+        } 
     
     stage('Create Docker Image') {
      steps{
