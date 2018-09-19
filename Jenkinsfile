@@ -25,7 +25,8 @@ stages {
 			 //sh "whoami"
 			 //sh "mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.3.0.603:sonar -Dsonar.host.url=http://sonar-devel.local"
 		   
-		 sh 'mvn sonar:sonar -Dsonar.host.url=http://192.168.41.56:9000 -Dsonar.login=6d9caf1ec7a57e01ed5d33fabc3c4577ba1c9e50'
+		// sh 'mvn sonar:sonar -Dsonar.host.url=http://192.168.41.56:9000 -Dsonar.login=6d9caf1ec7a57e01ed5d33fabc3c4577ba1c9e50'
+		   sh 'mvn sonar:sonar -Dsonar.host.url=http://192.168.41.56:9000 -Dsonar.login=671b5aa333b894f79e6cac7ca4ccde2819e81628'
 	  }
   }
   
