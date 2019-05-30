@@ -233,18 +233,15 @@
         </license>
     </licenses>
     
-<repositories>
-    <repository>
-    <id>RELEASES</id>
-    <!-- nexus server details for release -->
-    <url>http://192.168.41.56:8090/repository/maven-releases/</url>
+<repository>
+  <id>nexus</id>
+  <name>SNAPSHOTS</name>
+  <url>http://192.168.41.56:8090/repository/maven-snapshots/</url>
+<repository>
+  <id>nexus</id>
+  <name>RELEASES</name>
+  <url>http://192.168.41.56:8090/repository/maven-releases/</url>
   </repository>
-  <snapshotRepository>
-    <id>snapshots</id>
-    <!-- nexus server details for snapshots-->
-    <url>http://192.168.41.56:8090/repository/maven-snapshots/</url>
-  </snapshotRepository>
-<repositories>
 
     <pluginRepositories>
         <pluginRepository>
