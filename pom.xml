@@ -280,7 +280,8 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
     </licenses>
-    
+ 
+<distributionManagement>
 <repositories>
 	<repository>
 		<id>nexus</id>
@@ -293,7 +294,7 @@
 		<url>http://192.168.41.56:8090/repository/maven-releases/</url>
 	</repository>
 </repositories>
-
+</distributionManagement>
     <pluginRepositories>
         <pluginRepository>
             <id>spring-snapshots</id>
