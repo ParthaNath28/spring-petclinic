@@ -241,7 +241,7 @@
   <snapshotRepository>
     <id>snapshots</id>
     <!-- nexus server details for snapshots-->
-    <url>http://192.168.41.56:8090/repository/maven-releases/</url>
+    <url>http://192.168.41.56:8090/repository/maven-snapshots/</url>
   </snapshotRepository>
 
     <pluginRepositories>
