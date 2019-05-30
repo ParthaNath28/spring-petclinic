@@ -235,17 +235,17 @@
 
     <repositories>
         <repository>
-            <id>spring-snapshots</id>
-            <name>Spring Snapshots</name>
-            <url>https://repo.spring.io/snapshot</url>
+            <id>petclinic</id>
+            <name>petclinic Snapshots</name>
+            <url>http://192.168.41.56:8090/repository/maven-snapshots/</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
         </repository>
         <repository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
+            <id>petclinic</id>
+            <name>petclinic Release</name>
+            <url>http://192.168.41.56:8090/repository/maven-releases/</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
