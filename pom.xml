@@ -233,6 +233,7 @@
         </license>
     </licenses>
     
+<repositories>
 <repository>
   <id>nexus</id>
   <name>SNAPSHOTS</name>
@@ -242,6 +243,7 @@
   <name>RELEASES</name>
   <url>http://192.168.41.56:8090/repository/maven-releases/</url>
   </repository>
+</repositories>
 
     <pluginRepositories>
         <pluginRepository>
