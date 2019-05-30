@@ -117,8 +117,8 @@
         </dependency>
         
         <dependency>
-    <groupId>org.docx4j</groupId>
-    <artifactId>docx4j</artifactId>
+    <groupId>org.logback</groupId>
+    <artifactId>logback-classic</artifactId>
     <version>1.0.13</version>
     <exclusions>
         <exclusion>
