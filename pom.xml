@@ -284,12 +284,12 @@
 <distributionManagement>
 
 	<snapshotRepository>
-		<id>nexus</id>
+		<id>snapshots</id>
 		<name>SNAPSHOTS</name>
 		<url>http://192.168.41.56:8090/repository/maven-snapshots/</url>
 	</snapshotRepository>
 	<repository>
-		<id>nexus1</id>
+		<id>releases</id>
 		<name>RELEASES</name>
 		<url>http://192.168.41.56:8090/repository/maven-releases/</url>
 	</repository>
