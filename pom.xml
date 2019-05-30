@@ -116,7 +116,7 @@
             <scope>runtime</scope>
         </dependency>
         
-       <dependency>
+       <!--<dependency>
 			<groupId>org.ehcache</groupId>
 			<artifactId>ehcache</artifactId>
 			<version>3.5.0</version>
@@ -146,7 +146,23 @@
 					<artifactId>slf4j-api</artifactId>
 				</exclusion>
             </exclusions>
+        </dependency> -->
+        
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <exclusions>
+                <exclusion>
+                    <artifactId>logback-classic</artifactId>
+                    <groupId>ch.qos.logback</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>log4j-over-slf4j</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
+        
     </dependencies>
 
     <build>
