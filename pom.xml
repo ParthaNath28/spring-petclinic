@@ -235,7 +235,7 @@
     
 <repositories>
     <repository>
-    <id>releases</id>
+    <id>RELEASES</id>
     <!-- nexus server details for release -->
     <url>http://192.168.41.56:8090/repository/maven-releases/</url>
   </repository>
