@@ -247,7 +247,7 @@
             <name>petclinic Release</name>
             <url>http://192.168.41.56:8090/repository/maven-releases/</url>
             <snapshots>
-                <enabled>true</enabled>
+                <enabled>false</enabled>
             </snapshots>
         </repository>
     </repositories>
